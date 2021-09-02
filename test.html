@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>BeyondClass_login</title>
+	<style type="text/css">
+		body{
+			box-sizing: border-box;
+			background-color: #253439;
+
+		}
+		#logincontainer{
+			box-sizing: border-box;
+			position: relative;
+			width: 20%;
+			height:10%;
+			border:  solid white 1px;
+			
+
+		}
+		#logincontainer .leftlogincontainer{
+			position: relative;
+			top: 0%;
+			left:  0%;
+			box-sizing: border-box;
+			text-align: center;
+			width : 50%; 
+			height: 100%;
+			border: dashed white 1px;
+		}
+		#logincontainer .rightlogincontainer{
+			position: relative;
+			bottom :50%;
+			left: 50%;
+			width : 50%;
+			height: 10%;
+			border: dashed white 1px;
+			background-color: #575757;
+			text-align: center;
+
+
+		}
+	</style>
+</head>
+<body>
+	<div class= "body" > 
+		<div id = "logincontainer"> 
+			<div class = "leftlogincontainer"> Login</div>
+			<div class = "rightlogincontainer"> Signup</div>
+		</div>
+		<form id = "loginform" action=" ">
+			<input class = "mail" type = "text" placeholder= "Smail ID"  />
+			<input class="password" type = "password" placeholder="Password" />
+			<div class="submit "type="submit">Login</div>
+			<div class= "Forgot"> Forgot Password ? </div>
+			<input class= "checkbox" type = "checkbox" >
+			<div class="remember">Remember me </div>
+			<div class="googlelogin"type = "submit">Continue with Google </div>
+			<div class = "btn-group"> 
+				<div> About</div>
+				<div >Terms and Conditions</div>
+				<div>Privacy</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
